@@ -7,7 +7,7 @@ def read(fname):
 
 setuptools.setup(
     name = "printb", 
-    version = "0.0.3",
+    version = "0.0.4",
     author = "Michael Moser",
     author_email = "moser.michael@gmail.com",
     description = ("printb is a wrapper for print/input built-ins, that swaps string directions for BIDI languages."),
