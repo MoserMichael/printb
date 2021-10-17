@@ -19,4 +19,10 @@ See the [test_bidi test file](https://raw.githubusercontent.com/MoserMichael/pri
 
 ## Installation
 
+You need to install the requirement package: ```python-bidi```:
+
+```pip3 install python-bidi```
+
+Then install this package:
+
 ```pip3 install printb```. See package on [pypi](https://pypi.org/project/printb/)
