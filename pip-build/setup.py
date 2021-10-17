@@ -6,7 +6,7 @@ def read(fname):
         return f.read()
 
 setuptools.setup(
-    name = "PygameWrap", 
+    name = "printb", 
     version = "0.0.2",
     author = "Michael Moser",
     author_email = "moser.michael@gmail.com",
@@ -21,7 +21,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        "Topic :: Text processing"
+        "Topic :: Text Processing"
     ],
     python_requires='>=3.6',
 )

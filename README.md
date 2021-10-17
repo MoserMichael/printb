@@ -1,6 +1,6 @@
 # the printb python module
 
-This is a small wrapper around the [python-bid](https://pypi.org/project/python-bidi/)
+This is a small wrapper around the [python-bidi](https://pypi.org/project/python-bidi/)
 
 It has the following api:
 
@@ -15,4 +15,8 @@ Adds a wrapper for python built-in [input](https://docs.python.org/3/library/fun
  
 ## Example usage
 
-See the test-bidi.py file for example usage.
+See the [test_bidi test file](https://raw.githubusercontent.com/MoserMichael/printb/master/test-bidi.py) 
+
+## Installation
+
+```pip3 install printb```. See package on [pypi](https://pypi.org/project/printb/)
