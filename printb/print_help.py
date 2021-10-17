@@ -6,7 +6,7 @@ from bidi.algorithm import get_display
 # the workaround is to put bidi text into separate string variables.
 
 
-#def printbfancy(*args, sep=' ', end='\n', file=sys.stdout, flush=False): 
+#def printbfancy(*args, sep=' ', end='\n', file=sys.stdout, flush=False):
 #    lst = reversed( list( map( lambda arg  : get_display(arg) if isinstance(arg, str) else str(arg), args) ) )
 #    print( ' '.join( lst ) )
 
@@ -17,4 +17,3 @@ def printb(*args, sep=' ', end='\n', file=sys.stdout, flush=False):
 def inputb(prompt=''):
     printb( prompt ,end="", flush=True)
     return input()
-
