@@ -1,1 +1,2 @@
-python-bidi
+python-bidi==0.4.2
+six==1.16.0
