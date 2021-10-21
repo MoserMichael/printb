@@ -10,6 +10,7 @@ mkdir -p staging_dir/tests
 
 cp test-bidi.py staging_dir/tests
 cp printb/*.py staging_dir/src/printb
+cp requirements.txt staging_dir/
 cp LICENSE.txt README.md staging_dir
 cp pip-build/* staging_dir
 
