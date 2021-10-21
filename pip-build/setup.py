@@ -12,14 +12,15 @@ print("install-requires:", install_requires)
 
 setuptools.setup(
     name = "printb",
-    version = "1.0.0",
+    version = "1.0.2",
     author = "Michael Moser",
     author_email = "moser.michael@gmail.com",
     description = ("printb is a wrapper for print/input built-ins, that swaps string directions for BIDI languages."),
     license = "MIT",
     keywords = "text processing, bidi languages",
     url = "https://github.com/MoserMichael/printb",
-    packages=setuptools.find_packages(),
+    package_dir={'': 'src'},
+    packages=setuptools.find_packages("src"),
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     install_requires=install_requires,
