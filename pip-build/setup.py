@@ -12,7 +12,7 @@ print("install-requires:", install_requires)
 
 setuptools.setup(
     name = "printb",
-    version = "1.0.2",
+    version = "1.0.3",
     author = "Michael Moser",
     author_email = "moser.michael@gmail.com",
     description = ("printb is a wrapper for print/input built-ins, that swaps string directions for BIDI languages."),
